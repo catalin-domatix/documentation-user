@@ -1,203 +1,196 @@
 :banner: banners/getting_started.png
 
-====================================
-Basics of the QuickStart Methodology
-====================================
+==============================================
+Conceptos básicos de la metodología Quickstart
+==============================================
 
-This document summarizes Odoo Online's services, our Success Pack
-implementation methodology, and best practices to get started with our
-product.
+Este documento resume los servicios de Odoo Online, nuestra metodología
+de implantación Success Pack y las buenas prácticas para empezar con
+nuestro producto
 
-1. The SPoC (*Single Point of Contact*) and the Consultant
+1. SPoC (*Single Point of Contact*) y el consultor
 ==========================================================
+Dentro del contexto de su proyecto es altamente recomendado
+designar y mantener en ambos lados (su lado y el nuestro) **una
+única persona de contacto** la cual tomará las riendas y asumirá
+responsabilidades con respecto a su proyecto. El consultor también
+tendrá que tener **la autoridad** en términos de toma de decisiones.
+- **El consultor Odoo asegura la implementación del proyecto de la A a la Z**:
+  Desde el inicio al final del proyecto el consultor asegura la consistencia 
+  general de la implementación en Odoo y aplica su habilidad 
+  en buenas prácticas.
 
-Within the context of your project, it is highly recommended to
-designate and maintain on both sides (your side and ours) **one
-and only single person of contact** who will take charge and assume
-responsibilities regarding the project. He also has to have **the
-authority** in terms of decision making.
+-  **Una sola persona que tome decisiones en la parte del cliente (SPoC)**:
+   Es el responsable de la transmisión del conocimiento de negocio (coordinar 
+   la intervención entre usuarios clave, si es necesario) y de la consistencia 
+   de implementación desde un punto de vista de negocio (toma de decisiones,
+   implementación y dirección de los eventuales cambios, etc.)
 
--  **The Odoo Consultant ensures the project implementation from A to Z**:
-   From the beginning to the end of the project, he ensures the overall
-   consistency of the implementation in Odoo and shares his expertise
-   in terms of good practices.
+-  **Organización de las reuniones**:
+   El consultor Odoo no se involucra en el proceso de toma de decisiones desde 
+   un punto de vista del negocio ni se encarga de precisar este procesos 
+   de este tipo o internos de la empresa (a menos que se dé una petición 
+   específica o una excepción). Las reuniones del proyecto, las cuales tendrán
+   lugar una dos veces por semana, se centrarán en las necesidades del negocio
+   (SPoc) y definirán cómo el consultor implementará esas necesidades en Odoo.
 
--  **One and only decision maker on the client side (SPoC)**:
-   He is responsible for the business knowledge transmission
-   (coordinate key users intervention if necessary) and the consistency
-   of the implementation from a business point of view (decision
-   making, change management, etc.)
+-  **Entrenar al entrenador como filosofía**:
+   El consultor Odoo provee entrenamiento funcional al SPoC para que este pueda
+   pasar su conocimiento a sus colaboradores. Para que este acercamiento sea 
+   exitoso, será necesario que el SPoC mejore sus habilidades mediante autoaprendizaje
+   con la ayuda de la `Documentación Odoo <http://www.odoo.com/documentation/user/13.0/index.html>`__, 
+   `La plataforma de aprendizaje electrónico <https://odoo.thinkific.com/courses/odoo-functional>`__ 
+   y las funcionalidades de testeo y pruebas.
 
--  **Meetings optimization**:
-   The Odoo consultant is not involved in the process of decision
-   making from a business point of view nor to precise processes and
-   company's internal procedures (unless a specific request or an
-   exception). Project meetings, who will take place once or twice a
-   week, are meant to align on the business needs (SPoC) and to define
-   the way those needs will be implemented in Odoo (Consultant).
-
--  **Train the Trainer approach**:
-   The Odoo consultant provides functional training to the SPoC so that
-   he can pass on this knowledge to his collaborators. In order for
-   this approach to be successful, it is necessary that the SPoC is
-   also involved in its own rise in skills through self-learning via
-   the `Odoo documentation <http://www.odoo.com/documentation/user/10.0/index.html>`__, `The elearning platform <https://odoo.thinkific.com/courses/odoo-functional>`__ and the testing of functionalities.
-
-2. Project Scope
+2. Alcance del proyecto
 ================
+Para asegurarse de la implicación de todos los stakeholders será necesario definir
+y establecer una evolución del alcance del proyecto tan grande como la impelementación
+que el proyecto busca.
 
-To make sure all the stakeholders involved are always aligned, it is
-necessary to define and to make the project scope evolve as long as the
-project implementation is pursuing.
+-  **Una definición clara del alcance inicial del proyecto**:    
+   Una definición inicial clara se sugiere como crucial para asegurar
+   que el proyecto se está desarrollando de manera correcta. En tanto en cuanto
+   todos los stakeholders comparten la misma visión, la evolución de las necesidades y 
+   los procesos de toma de decisiones resultantes serán más simples y claros.
+   
+-  **División en fases de proyect**:
+   Favorecer una implementación en varias fases coherentes entre sí permitiendo
+   las entregas regulares en entornos de producción y una asimilación continua por parte de 
+   los usuarios finales con respecto a Odoo ha demostrado su efectividad con el paso
+   del tiempo. Esta aproximación también ayuda a indentificar huecos y aplicar acciones
+   correctivas en las fases tempranas.
+   
+-  **Adaptar características estandarizadas como prioridad**:
+   Odoo ofrece un gran entorno para implementar mejoras tanto ligeras - personalizaciones - 
+   como importantes - desarrollos. De todas formas, adoptar una solución estándar será
+   lo preferido en tanto en cuanto se desse optimizar los tiempos de de entrega del proyecto
+   y provver al usuario con una estabilidad de larga duración, así como una escalabilidad
+   fluida de su nueva herramienta. Idealmente, una implementación será desplegada después de
+   una experimentación del estándar en producción.
 
--  **A clear definition of the initial project scope**:    
-   A clear definition of the initial needs is crucial to ensure the
-   project is running smoothly. Indeed, when all the stakeholders share
-   the same vision, the evolution of the needs and the resulting
-   decision-making process are more simple and more clear.
-
--  **Phasing the project**:
-   Favoring an implementation in several coherent phases allowing
-   regular production releases and an evolving takeover of Odoo by the
-   end users have demonstrated its effectiveness over time. This
-   approach also helps to identify gaps and apply corrective actions
-   early in the implementation.
-
--  **Adopting standard features as a priority**:
-   Odoo offers a great environment to implement slight improvements
-   (customizations) or more important ones (developments).
-   Nevertheless, adoption of the standard solution will be preferred as
-   often as possible in order to optimize project delivery times and
-   provide the user with a long-term stability and fluid scalability of
-   his new tool. Ideally, if an improvement of the software should
-   still be realized, its implementation will be carried out after an
-   experiment of the standard in production.
 
 .. image:: media/basic_quickstart01.png
     :align: center
 
-3. Managing expectations
+3. Administrar expectativas
 ========================
+El huecho entre la realidad de una implementación y las expectativas de esta es un factor crucial.
+Tres aspectos importantes deben ser considerados desde el inicio del proyecto:
 
-The gap between the reality of an implementation and the expectations of
-future users is a crucial factor. Three important aspects must be taken
-into account from the beginning of the project:
+-  **Alinearse con la aproximación del proyecto**:
+   Tanto una división clara de los roles y responsabilidades como
+   una descripción de los modos de operación - validación, resolución 
+   de problemas, etc. - son aspectos cruciales al éxito de una 
+   implementación Odoo. Luego, se aconseja encarecidamente tomar el tiempo
+   necesario al inicio del proyecto para tomar conciencia y  de estos temas
+   y regularmente compbrobar si están correctamente definidos.
+   
+-  **Concentrarse en el éxito del proyecto, no la solución ideal**:
+   La meta principal del SPoC y del consultor es realizar el proyecto asignado para 
+   entregar la solución más efectiva que coincida con las demandas del mismo. Esta 
+   meta puede, a veces, estar en conflicto con la visión del usuario final de una
+   solución ideal. En este caso, el SPoC y el consultor aplicarán la regla del 80-20: 
+   concentrarse en el 80% de las necesidades puestas sobre la mesa y descartar el 20% 
+   de los objectivos menos aventajantes en términos de coste/beneficio (estas 
+   proporciones pueden cambiar a lo largo del tiempo). Asimismo, será considerado
+   aceptable el hecho de integrar manipulaciones que consuman tiempo si se detecta
+   un alivio general.
+   Cambios en los procesos de negocio también pueden ser propuestos en tanto en cuanto
+   se busque perseguir el mismo objetivo.
+   
+-  **Las especificaciones son siempre EXPLÍCITAS**:   
+   Los huecos entre lo esperado y lo entregado son, una gran parte del tiempo, una fuente
+   de conflictos en un proyecto. Para evitar una situación así de delicada recomendamos el 
+   uso de varias herramientas\* :
+   
+-  **Análisis GAP**: La compración entre lo requerido y el estándar de características
+   propuesto por Odoo hará posible el identificar los huecos a ser rellenados por 
+   desarrollos, personalizaciones o cambios en los procesos de negocio.
 
--  **Align with the project approach**:
-   Both a clear division of roles and responsibilities and a clear
-   description of the operating modes (validation, problem-solving,
-   etc.) are crucial to the success of an Odoo implementation. It is
-   therefore strongly advised to take the necessary time at the
-   beginning of the project to align with these topics and regularly
-   check that this is still the case.
-
--  **Focus on the project success, not on the ideal solution**:
-   The main goal of the SPoC and the Consultant is to carry out the
-   project entrusted to them in order to provide the most effective
-   solution to meet the needs expressed. This goal can sometimes
-   conflict with the end user's vision of an ideal solution. In that
-   case, the SPoC and the consultant will apply the 80-20 rule: focus
-   on 80% of the expressed needs and take out the remaining 20% of the
-   most disadvantageous objectives in terms of cost/benefit ratio
-   (those proportions can of course change over time). Therefore, it
-   will be considered acceptable to integrate a more time-consuming
-   manipulation if a global relief is noted.
-   Changes in business processes may also be proposed to pursue this
-   same objective.
-
--  **Specifications are always EXPLICIT**:
-   Gaps between what is expected and what is delivered are often a
-   source of conflict in a project. In order to avoid being in this
-   delicate situation, we recommend using several types of tools\* :
-
--  **The GAP Analysis**: The comparison of the request with the standard
-   features proposed by Odoo will make it possible to identify the
-   gap to be filled by developments/customizations or changes in
-   business processes.
-
--  **The User Story**:
-   This technique clearly separates the responsibilities between the
-   SPoC, responsible for explaining the WHAT, the WHY and the WHO,
-   and the Consultant who will provide a response to the HOW.
+-  **La historia de usuario**:
+   Esta técnica separa claramente las responsabilidades entre el SPoC, el responsable de
+   explicar el QUÉ, el POR QUÉ y el QUIÉN, y el consultor, el cual proveerá una respuesta
+   al CÓMO.
 
 .. image:: media/basic_quickstart02.png
     :align: center
 
-- `The Proof of Concept <https://en.wikipedia.org/wiki/Proof_of_concept>`__ 
-  A simplified version, a prototype of what is expected to agree on
-  the main lines of expected changes.
+- `La prubea de concepot <https://es.wikipedia.org/wiki/Prueba_de_concepto>`__ 
+  Una versión simplificada, un prototipo del acuerdo que se llega, en líneas 
+  generales, de los cambios esperados.
+  
+- **El boceto**: Teniendo la misma idea que la prueba de concepot, el boceto
+  se alineará con los cambios relacionados a la interfaz.
 
-- **The Mockup**: In the same idea as the Proof of Concept, it will align
-  with the changes related to the interface.
+Se añadirá completa transparencia de las posibilidades y limitaciones 
+del software y/o su entorno a las herramientas anteriormente mencionadas,
+en tanto que se busque que los stakeholders del proyecto tengan una idea 
+clara de qué esperar y qué se consigue en el proyecto. Asimismo evitaremos
+basar nuestro trabajo en hipótesis sin verificar sus veracidades de antemano.
 
-To these tools will be added complete transparency on the possibilities
-and limitations of the software and/or its environment so that all
-project stakeholders have a clear idea of what can be expected/achieved
-in the project. We will, therefore, avoid basing our work on hypotheses
-without verifying its veracity beforehand.
+*La lista puede, por supuesto, ser complementado con otras herramientas que
+adecuadamente cumplan con las necesidades de su proyecto.
 
-*This list can, of course, be completed by other tools that would more
-adequately meet the realities and needs of your project*
 
-4. Communication Strategy
+4. Estrategia de comunicación
 =========================
+El objetivo de la metodología QuickStart es asegurar la posesión rápida
+de la herramienta por parte de los usuarios finales. Una comunicación
+efectiva es crucial para el éxito de esta metodología. Su optimización
+se hará siguiendo estos principios:
 
-The purpose of the QuickStart methodology is to ensure quick ownership
-of the tool for end users. Effective communication is therefore crucial
-to the success of this approach. Its optimization will, therefore, lead
-us to follow those principles:
+-  **Compartir la documentación de la administración del proyecto**:
+   La mejor manera de asegurar que todos los stakeholders de un proyecto
+   tienen el mismo nivel de conocimiento es proveer a los mismo con 
+   acceso directo a la documentación de seguimiento del proyecto 
+   (Organizador del proyecto). Este documento contendrá al menos una
+   lista de tareas a realizar como parte de la implementación donde
+   el nivel de prioridad y el administrador son claramente definidos.
 
--  **Sharing the project management documentation**:
-   The best way to ensure that all stakeholders in a project have the
-   same level of knowledge is to provide direct access to the project's
-   tracking document (Project Organizer). This document will contain
-   at least a list of tasks to be performed as part of the
-   implementation for which the priority level and the manager are
-   clearly defined.
+   El Organizador del proyecto es una herramienta de seguimiento
+   compartida que permite tanto el seguimiento detallado de las tareas
+   en progreso así como del progreso general del proyecto.
 
-   The Project Organizer is a shared project tracking tool that
-   allows both detailed tracking of ongoing tasks and the overall
-   progress of the project.
+-  **Informar lo esencial**:
+   Para minimizar el tiempo de documentación a lo esencial seguiremos 
+   las siguientes buenas prácticas:
+   
+-  El tiempo de las reuniones será limitado a decisiones y validaciones
 
--  **Report essential information**:
-   In order to minimize the documentation time to the essentials, we
-   will follow the following good practices:
+-  Los estados del proyecto solo se establecerán cuando se alcanze un hito
+   considerable.
+-  Las sesiones de entrenamiento en las soluciones estandarizadas o 
+   personalizadas serán organizadas.
 
--  Meeting minutes will be limited to decisions and validations;
-
--  Project statuses will only be established when an important milestone
-   is reached;
-
--  Training sessions on the standard or customized solution will be
-   organized.
-
-5. Customizations and Development
+5. Personalización y desarrollo
 =================================
+Odoo es un software conocido por su flexibilidad y su importante capacidad
+de evolución. Sin embargo, una gran cantidad de desarrollo contradice 
+al hecho de tener una implementación rápida y sostenible. Por ello, se
+recomienda:
 
-Odoo is a software known for its flexibility and its important evolution
-capacity. However, a significant amount of development contradicts a
-fast and sustainable implementation. This is the reason why it is
-recommended to:
+-  **Desarrollar solo si hay una buena razón**:
+   La decisión de desarrollar siempre tiene que tomarse cuando el ratio
+   coste-beneficio es positivo (ahorrar tiempo diario, etc.). Por ejemplo,
+   será preferible realizar un desarrollo considerable en tanto en cuanto
+   se reduzca el tiempo de una operación recurrente, diaria antes que una
+   que se realiza una vez por trimestre. Está popularmente aceptado que
+   la solución, cuanto más se acerque a lo estandarizado, más ligero y 
+   fluido será el proceso de migración, así como un menor coste de mantenimiento
+   para ambas partes.
+    Además, la experiencia muestra que el 60% de las peticiones iniciales 
+   de desarrollo son descartadas después de unas semanas de uso del estándar
+   Odoo (ver "Adaptar características estandarizadas como prioridad").
+    
 
--  **Develop only for a good reason**:
-   The decision to develop must always be taken when the cost-benefit
-   ratio is positive (saving time on a daily basis, etc.). For example,
-   it will be preferable to realize a significant development in order
-   to reduce the time of a daily operation, rather than an operation to
-   be performed only once a quarter. It is generally accepted that the
-   closer the solution is to the standard, the lighter and more fluid
-   the migration process, and the lower the maintenance costs for both
-   parties. In addition, experience has shown us that 60% of initial
-   development requests are dropped after a few weeks of using standard
-   Odoo (see "Adopting the standard as a priority").
-
--  **Replace, without replicate**:
-   There is a good reason for the decision to change the management
-   software has been made. In this context, the moment of
-   implementation is THE right moment to accept and even be a change
-   initiator both in terms of how the software will be used and at the
-   level of the business processes of the company.
-
+-  **Reemplazar sin replicar**:
+   Contextualicemos que existe una buena razón para hacer un cambio 
+   en el software. Cuando se hace la implementación es EL momento 
+   adecuado para aceptar o incluso sugerir un cambio tanto 
+   en términos de cómo el software se usará como en términos 
+   de procesos de negocio de la compañía.
+   
 6. Testing and Validation principles
 ====================================
 
