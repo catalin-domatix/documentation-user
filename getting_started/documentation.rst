@@ -15,6 +15,7 @@ designar y mantener en ambos lados (su lado y el nuestro) **una
 única persona de contacto** la cual tomará las riendas y asumirá
 responsabilidades con respecto a su proyecto. El consultor también
 tendrá que tener **la autoridad** en términos de toma de decisiones.
+
 - **El consultor Odoo asegura la implementación del proyecto de la A a la Z**:
   Desde el inicio al final del proyecto el consultor asegura la consistencia 
   general de la implementación en Odoo y aplica su habilidad 
