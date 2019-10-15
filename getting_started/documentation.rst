@@ -117,7 +117,7 @@ Tres aspectos importantes deben ser considerados desde el inicio del proyecto:
 .. image:: media/basic_quickstart02.png
     :align: center
 
-- `La prubea de concepto <https://es.wikipedia.org/wiki/Prueba_de_concepto>`__ 
+- `La prueba de concepto <https://es.wikipedia.org/wiki/Prueba_de_concepto>`__ 
   Una versión simplificada, un prototipo del acuerdo que se llega, en líneas 
   generales, de los cambios esperados.
   
