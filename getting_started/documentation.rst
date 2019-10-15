@@ -210,13 +210,12 @@ necesidades operacionales de la compañía.
    Cuando un cambio se necesita traducir a una solución, el hueco detectado
    se ha generado a causa de:
    
-   - Una diferencia entre la especificación y la solución entregada. Esta es una
-   corrección por la cual el consultor es responsable
+   -  Una diferencia entre la especificación y la solución entregada. Esta es una corrección por la cual el consultor es responsable 
    
-      **o**
+      **or**
    
-   -  Una diferencia entre la especificación y los imperativos de la realidad 
-   operacional. Esto es un cambio donde el SPoC es el responsable de su generación
+   -  Una diferencia entre la especificación y los imperativos de la realidad  operacional. Esto es un cambio donde el SPoC es el responsable de su generación
+
 
 7. Importaciones de datos
 ===============
