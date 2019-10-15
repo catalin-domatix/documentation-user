@@ -212,7 +212,7 @@ necesidades operacionales de la compañía.
    
    -  Una diferencia entre la especificación y la solución entregada. Esta es una corrección por la cual el consultor es responsable 
    
-      **or**
+      **o**
    
    -  Una diferencia entre la especificación y los imperativos de la realidad  operacional. Esto es un cambio donde el SPoC es el responsable de su generación
 
