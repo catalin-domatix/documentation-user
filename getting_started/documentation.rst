@@ -252,4 +252,4 @@ entre:
 Cuando su proyecto se ha lanzado a producción, nuestros equipos de soporte
 darán auxilio a sus cuestiones o problemas técnicos.
 
-See :ref:`support-expectations`.
+Ver :ref:`support-expectations`.
