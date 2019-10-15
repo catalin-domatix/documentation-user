@@ -29,17 +29,17 @@ tendrá que tener **la autoridad** en términos de toma de decisiones.
 
 -  **Organización de las reuniones**:
    El consultor Odoo no se involucra en el proceso de toma de decisiones desde 
-   un punto de vista del negocio ni se encarga de precisar este procesos 
+   un punto de vista del negocio ni se encarga de precisar procesos 
    de este tipo o internos de la empresa (a menos que se dé una petición 
    específica o una excepción). Las reuniones del proyecto, las cuales tendrán
-   lugar una dos veces por semana, se centrarán en las necesidades del negocio
-   (SPoc) y definirán cómo el consultor implementará esas necesidades en Odoo.
+   lugar una o dos veces por semana, se centrarán en las necesidades del negocio
+   (SPoC) y definirán cómo el consultor implementará dichas necesidades en Odoo.
 
 -  **Entrenar al entrenador como filosofía**:
    El consultor Odoo provee entrenamiento funcional al SPoC para que este pueda
    pasar su conocimiento a sus colaboradores. Para que este acercamiento sea 
-   exitoso, será necesario que el SPoC mejore sus habilidades mediante autoaprendizaje
-   con la ayuda de la `Documentación Odoo <http://www.odoo.com/documentation/user/13.0/index.html>`__, 
+   exitoso, será necesario que el SPoC mejore sus habilidades mediante técnicas de
+   autoaprendizaje con la ayuda de la `Documentación Odoo <http://www.odoo.com/documentation/user/13.0/index.html>`__, 
    `La plataforma de aprendizaje electrónico <https://odoo.thinkific.com/courses/odoo-functional>`__ 
    y las funcionalidades de testeo y pruebas.
 
@@ -55,18 +55,18 @@ que el proyecto busca.
    todos los stakeholders comparten la misma visión, la evolución de las necesidades y 
    los procesos de toma de decisiones resultantes serán más simples y claros.
    
--  **División en fases de proyect**:
-   Favorecer una implementación en varias fases coherentes entre sí permitiendo
+-  **División del proyecto en fases**:
+   Favorecer una implementación en varias fases coherentes entre sí, permitiendo
    las entregas regulares en entornos de producción y una asimilación continua por parte de 
-   los usuarios finales con respecto a Odoo ha demostrado su efectividad con el paso
-   del tiempo. Esta aproximación también ayuda a indentificar huecos y aplicar acciones
+   los usuarios finales con respecto a Odoo, ha demostrado su efectividad con el paso
+   del tiempo. Esta aproximación también ayuda a indentificar huecos y a aplicar acciones
    correctivas en las fases tempranas.
    
 -  **Adaptar características estandarizadas como prioridad**:
    Odoo ofrece un gran entorno para implementar mejoras tanto ligeras - personalizaciones - 
    como importantes - desarrollos. De todas formas, adoptar una solución estándar será
    lo preferido en tanto en cuanto se desse optimizar los tiempos de de entrega del proyecto
-   y provver al usuario con una estabilidad de larga duración, así como una escalabilidad
+   y proveer al usuario con una estabilidad de larga duración, así como una escalabilidad
    fluida de su nueva herramienta. Idealmente, una implementación será desplegada después de
    una experimentación del estándar en producción.
 
@@ -79,7 +79,7 @@ que el proyecto busca.
 El huecho entre la realidad de una implementación y las expectativas de esta es un factor crucial.
 Tres aspectos importantes deben ser considerados desde el inicio del proyecto:
 
--  **Alinearse con la aproximación del proyecto**:
+-  **Estar en sintonía con la idiosincrasia del proyecto**:
    Tanto una división clara de los roles y responsabilidades como
    una descripción de los modos de operación - validación, resolución 
    de problemas, etc. - son aspectos cruciales al éxito de una 
@@ -87,7 +87,7 @@ Tres aspectos importantes deben ser considerados desde el inicio del proyecto:
    necesario al inicio del proyecto para tomar conciencia y  de estos temas
    y regularmente compbrobar si están correctamente definidos.
    
--  **Concentrarse en el éxito del proyecto, no la solución ideal**:
+-  **Concentrarse en el éxito del proyecto y no la solución ideal**:
    La meta principal del SPoC y del consultor es realizar el proyecto asignado para 
    entregar la solución más efectiva que coincida con las demandas del mismo. Esta 
    meta puede, a veces, estar en conflicto con la visión del usuario final de una
@@ -110,14 +110,14 @@ Tres aspectos importantes deben ser considerados desde el inicio del proyecto:
    desarrollos, personalizaciones o cambios en los procesos de negocio.
 
 -  **La historia de usuario**:
-   Esta técnica separa claramente las responsabilidades entre el SPoC, el responsable de
-   explicar el QUÉ, el POR QUÉ y el QUIÉN, y el consultor, el cual proveerá una respuesta
+   Esta técnica separa claramente las responsabilidades entre el SPoC - el responsable de
+   explicar el QUÉ, el POR QUÉ y el QUIÉN - y el consultor - el cual proveerá una respuesta
    al CÓMO.
 
 .. image:: media/basic_quickstart02.png
     :align: center
 
-- `La prubea de concepot <https://es.wikipedia.org/wiki/Prueba_de_concepto>`__ 
+- `La prubea de concepto <https://es.wikipedia.org/wiki/Prueba_de_concepto>`__ 
   Una versión simplificada, un prototipo del acuerdo que se llega, en líneas 
   generales, de los cambios esperados.
   
@@ -128,7 +128,7 @@ Se añadirá completa transparencia de las posibilidades y limitaciones
 del software y/o su entorno a las herramientas anteriormente mencionadas,
 en tanto que se busque que los stakeholders del proyecto tengan una idea 
 clara de qué esperar y qué se consigue en el proyecto. Asimismo evitaremos
-basar nuestro trabajo en hipótesis sin verificar sus veracidades de antemano.
+basar nuestro trabajo en hipótesis no verificadas de antemano.
 
 *La lista puede, por supuesto, ser complementado con otras herramientas que
 adecuadamente cumplan con las necesidades de su proyecto.
@@ -161,8 +161,9 @@ se hará siguiendo estos principios:
 
 -  Los estados del proyecto solo se establecerán cuando se alcanze un hito
    considerable.
--  Las sesiones de entrenamiento en las soluciones estandarizadas o 
-   personalizadas serán organizadas.
+   
+-  Se organizarán sesiones de entrenamiento en las soluciones estandarizadas o 
+   personalizadas.
 
 5. Personalización y desarrollo
 =================================
@@ -171,11 +172,11 @@ de evolución. Sin embargo, una gran cantidad de desarrollo contradice
 al hecho de tener una implementación rápida y sostenible. Por ello, se
 recomienda:
 
--  **Desarrollar solo si hay una buena razón**:
+-  **Desarrollar si y solo si hay una buena razón**:
    La decisión de desarrollar siempre tiene que tomarse cuando el ratio
    coste-beneficio es positivo (ahorrar tiempo diario, etc.). Por ejemplo,
    será preferible realizar un desarrollo considerable en tanto en cuanto
-   se reduzca el tiempo de una operación recurrente, diaria antes que una
+   se reduzca el tiempo de una operación recurrente, diaria, antes que una
    que se realiza una vez por trimestre. Está popularmente aceptado que
    la solución, cuanto más se acerque a lo estandarizado, más ligero y 
    fluido será el proceso de migración, así como un menor coste de mantenimiento
@@ -184,69 +185,72 @@ recomienda:
    de desarrollo son descartadas después de unas semanas de uso del estándar
    Odoo (ver "Adaptar características estandarizadas como prioridad").
     
-
 -  **Reemplazar sin replicar**:
    Contextualicemos que existe una buena razón para hacer un cambio 
-   en el software. Cuando se hace la implementación es EL momento 
-   adecuado para aceptar o incluso sugerir un cambio tanto 
-   en términos de cómo el software se usará como en términos 
-   de procesos de negocio de la compañía.
+   en el software. El momento en el que se está haciendo hace 
+   la implementación es EL momento adecuado para aceptar 
+   o incluso sugerir un cambio tanto en términos de cómo 
+   el software se usará como en términos de procesos de negocio 
+   de la compañía.
    
-6. Testing and Validation principles
+6. Principios de pruebas y validación
 ====================================
 
-Whether developments are made or not in the implementation, it is
-crucial to test and validate the correspondence of the solution with the
-operational needs of the company.
+Tanto como si los desarrollos están hechos en la implementación como si no,
+es crucial probar y validar la corresondencia de dichas soluciones con las
+necesidades operacionales de la compañía.
 
--  **Role distribution**:
-   In this context, the Consultant will be responsible for delivering a
-   solution corresponding to the defined specifications; the SPoC will
-   have to test and validate that the solution delivered meets the
-   requirements of the operational reality.
+-  **Distribución de roles**:
+   En este contexto el consultor será el responsable de entregar una solución
+   correspondiente a las especificaciones definidas; el SPoC se encargará
+   de probar y validar que la solución cumple los requerimientos de la 
+   realidad operacional
+   
+-  **Administración de cambios**:
+   Cuando un cambio se necesita traducir a una solución, el hueco detectado
+   se ha generado a causa de:
+   
+   - Una diferencia entre la especificación y la solución entregada. Esta es una
+   corrección por la cual el consultor es responsable
+   
+      **o**
+   
+   -  Una diferencia entre la especificación y los imperativos de la realidad 
+   operacional. Esto es un cambio donde el SPoC es el responsable de su generación
 
--  **Change management**:
-   When a change needs to be made to the solution, the noted gap is
-   caused by:
-   
-   -  A difference between the specification and the delivered solution - This is a correction for which the Consultant is responsible
-   
-      **or**
-   
-   -  A difference between the specification and the imperatives of
-      operational reality - This is a change that is the responsibility of SPoC.
-
-7. Data Imports
+7. Importaciones de datos
 ===============
 
-Importing the history of transactional data is an important issue and
-must be answered appropriately to allow the project running smoothly.
-Indeed, this task can be time-consuming and, if its priority is not well
-defined, prevent production from happening in time. To do this as soon
-as possible, it will be decided :
+Importar el historial de datos transaccionales es un apartado importante
+que necesita ser tratado de manera apropiada para poder llevar el proyecto
+de manera fluida.
 
--  **Not to import anything**:
-   It often happens that after reflection, importing data history is
-   not considered necessary, these data being, moreover, kept outside
-   Odoo and consolidated for later reporting.
+Hay que aceptar, entonces, que esta tarea puede consumir una cantidad relevante
+de tiempo y si su prioridad no está bien definida, puede prevenir que la producción
+no ocurra a tiempo. Para hacer esto a tiempo, se tendrá que tomar una decisión
+entre:
 
--  **To import a limited amount of data before going into production**:
-   When the data history relates to information being processed
-   (purchase orders, invoices, open projects, for example), the need to
-   have this information available from the first day of use in
-   production is real. In this case, the import will be made before the
-   production launch.
+-  **No importar nada**:
+   A menudo ocurre que después de una reflexión, importar el historial de datos
+   no es necesario en tanto en cuanto dichos datos se mantengan fuera de Odoo
+   y se consoliden para informes posteriores.
 
--  **To import after production launch**:
-   When the data history needs to be integrated with Odoo mainly for
-   reporting purposes, it is clear that these can be integrated into
-   the software retrospectively. In this case, the production launch of
-   the solution will precede the required imports.
+-  **Importar una cantidad limitada antes de salir a producción**:
+   Cuando el historial de datos contiene información sobre datos que se estén
+   procesando (órdenes de venta, facturas o proyectos, por ejemplo), la necesidad
+   de tener esta información disponible desde el día 1 es real. En este caso
+   la importación se hará antes de que el producto se lance a producción.
 
-8. Support
+-  **Importar después de salir a producción**:
+   Cuando el historial de datos necesita ser integrado con Odoo solo para la
+   generación de informes, queda claro que estos datos pueden ser integrados
+   en el software de manera retrospectiva. En este caso, el lanzamiento a
+   producción procederá sin importación de datos previa.
+
+8. Soporte
 ==========
 
-When your project is put in production, our support teams take care of your
-questions or technical issues.
+Cuando su proyecto se ha lanzado a producción, nuestros equipos de soporte
+darán auxilio a sus cuestiones o problemas técnicos.
 
 See :ref:`support-expectations`.
